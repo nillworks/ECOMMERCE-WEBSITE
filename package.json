@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/style.css --watch",
-    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/style.css --minify",
-    "build:html": "cp -r src/pages dist",
-    "build:js": "cp -r src/js dist/js",
-    "build:images": "cp -r src/images dist/images",
-    "build": "rm -rf dist && mkdir dist && npm run build:css && npm run build:html && npm run build:js && npm run build:images"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/style.css --watch"
   },
   "keywords": [],
   "author": "",

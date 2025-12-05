@@ -23,6 +23,10 @@
   p {
     @apply text-[#9F9F9F] text-[14px];
   }
+  html,
+  body {
+    overflow-x: hidden;
+  }
 }
 
 @layer components {
