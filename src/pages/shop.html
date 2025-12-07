@@ -29,7 +29,7 @@
       <!-- Medel sections -->
       <nav>
         <ul id="mobileManu"
-          class=" absolute bg-violet-400 top-16 left-full w-full text-center transition-all duration-300 z-50 sm:sticky sm:bg-transparent sm:flex sm:mt-4 sm:left-0">
+          class=" absolute backdrop-blur-md bg-amber-200/20 top-16 left-full w-full h-screen text-center transition-all duration-300 z-50 sm:sticky sm:bg-transparent sm:flex sm:mt-4 sm:left-0 sm:h-auto">
           <li class="mb-5 mt-5 sm:mt-0"><a href="/index.html"
               class="text-2xl bg-green-400 py-1 px-4 rounded-lg text-white hover:bg-green-500 transition-colors sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">Home</a>
           </li>
@@ -91,12 +91,13 @@
 
   <!-- Shop Filter sections -->
   <section>
-    <div class="containers flex items-center flex-wrap justify-center sm:justify-around bg-dripRed100 py-6 px-2">
+    <div
+      class="containers flex items-center flex-wrap justify-around mx-auto sm:justify-around bg-dripRed100 py-6 px-2">
 
       <!-- left Filter sections -->
-      <div class="flex items-center gap-15">
-        <div class="flex items-center gap-3">
-          <a href="#"><img src="/src/images/icon/filtersIcons.png" alt="icons" class="w-10 sm:w-auto"></a>
+      <div class="flex items-center gap-5">
+        <div class="flex items-center gap-3 justify-around">
+          <a href="#"><img src="/src/images/icon/filtersIcons.png" alt="icons" class=" w-7 sm:w-auto"></a>
           <h2>Filter</h2>
         </div>
         <div class="flex items-center gap-7">
@@ -309,19 +310,19 @@
   <section>
     <div class="containers bg-pink-50 flex gap-3 flex-wrap items-center sm:justify-around sm:gap-4 py-8 px-2">
 
-      <div class="text-center sm:text-left flex gap-2">
+      <div class=" sm:text-left flex gap-2">
         <!-- left sections -->
-        <div class="">
+        <div class="w-[95%]">
           <h2>Free Delivery</h2>
           <p>For all oders over $50, consectetur <br> adipim scing elit.</p>
         </div>
         <!-- Madals sections -->
-        <div>
+        <div class="w-[95%]">
           <h2>90 Days Return</h2>
           <p>If goods have problems, consectetur <br> adipim scing elit.</p>
         </div>
         <!-- Right sections -->
-        <div>
+        <div class="w-[95%]">
           <h2>Secure Payment</h2>
           <p>100% secure payment, consectetur adipim scing elit.</p>
         </div>
