@@ -20,23 +20,29 @@
 <body class="font-primary">
 
   <header id="header" class="">
-    <div class="bg-primary max-w-[1440px] mx-auto flex justify-between items-center py-8 px-4 relative">
+    <div class="bg-blue-100 max-w-[1440px] mx-auto flex justify-between items-center py-8 px-4 relative">
       <!-- logo -->
       <img src="src/images/brandLogo.png" alt="" class="w-22 lg:w-30">
+
       <!-- Navigation Manu -->
       <nav>
-        <ul
-          class="hidden absolute flex-row bg-violet-300 w-full top-20 left-0 py-4 uppercase sm:flex sm:relative sm:top-0 sm:bg-transparent">
-          <li class="mb-2 pl-4 hover:bg-violet-500 sm:hover:bg-transparent transition-colors"><a href="#"
-              class="font-medium hover:text-white">Home</a></li>
-          <li class="mb-2 pl-4 hover:bg-violet-500 sm:hover:bg-transparent transition-colors"><a
-              href="/src/pages/shop.html" class="font-medium hover:text-white">Shop</a></li>
-          <li class="mb-2 pl-4 hover:bg-violet-500 sm:hover:bg-transparent transition-colors"><a href="#"
-              class="font-medium hover:text-white">About</a></li>
-          <li class="mb-0 pl-4  hover:bg-violet-500 sm:hover:bg-transparent transition-colors"><a href="#"
-              class="font-medium hover:text-white">Contact</a></li>
+        <ul id="mobileManu"
+          class=" mt-1 absolute backdrop-blur-md bg-gray-900 top-16 left-full right-1 w-[90%] mx-auto transition-all duration-300 z-50 px-10 rounded-lg sm:sticky sm:bg-transparent sm:flex sm:mt-4 sm:left-0 sm:h-auto sm:right-0 sm:gap-6 sm:text-[18px] lg:text-2xl">
+          <li class="mb-2 boderBottom sm:border-none mt-5 sm:mt-0"><a href="/index.html"
+              class="transition-colors text-white font-medium sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">Home</a>
+          </li>
+          <li class="mb-2 boderBottom sm:border-none"><a href="/src/pages/shop.html"
+              class="transition-colors text-white font-medium sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">Shop</a>
+          </li>
+          <li class="mb-2 boderBottom sm:border-none"><a href="#"
+              class="transition-colors text-white font-medium sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">About</a>
+          </li>
+          <li class="mb-5 boderBottom sm:border-none"><a href="#"
+              class="transition-colors text-white font-medium sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">contact</a>
+          </li>
         </ul>
       </nav>
+
       <!-- Icon -->
       <div class="flex items-center gap-3">
         <p class="cursor-pointer text-black"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -66,19 +72,30 @@
               d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
           </svg>
         </p>
-        <div id="Mobile_bar" class="font-bold text-2xl text-green-600 cursor-pointer z-10 sm:hidden">
+      </div>
+
+      <!-- mobile navigation bars -->
+      <div class="sm:hidden">
+        <div id="mobileBars" class="sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+          </svg>
+        </div>
+        <div id="closeBars" class="hidden sm:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
           </svg>
         </div>
       </div>
+
     </div>
   </header>
 
   <!-- Hero Area -->
   <section id="hero_area">
-    <div class="bg-primary max-w-[1440px] mx-auto align-middle flex-row justify-between items-center sm:flex">
+    <div class="bg-blue-100 max-w-[1440px] mx-auto align-middle flex-row justify-between items-center sm:flex">
       <!-- left -->
       <div class="text-center sm:w-1/2">
         <h2 class="text-2xl lg:text-4xl lg:mb-4">Rocket single seater</h2>
