@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS&family=Poppins:wght@300;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Favicon Link -->
+  <link rel="shortcut icon" href="/src/images/icon/Favicon.png" type="image/x-icon">
+  <!-- Link Output Css -->
+  <link rel="stylesheet" href="/src/style.css">
+  <title>Shop</title>
+</head>
+
+<body class="font-primary">
+
+  <!-- Shop Header section -->
+  <header class="fixed top-0 left-0 w-full shadow-lg backdrop-blur-md">
+    <div class="containers flex justify-between items-center px-2 py-5 sm:py-4">
+
+      <!-- left sections -->
+      <div></div>
+
+      <!-- Medel sections -->
+      <nav>
+        <ul id="mobileManu"
+          class=" absolute bg-violet-400 top-16 left-full w-full text-center transition-all duration-300 z-50 sm:sticky sm:bg-transparent sm:flex sm:mt-4 sm:left-0">
+          <li class="mb-5 mt-5 sm:mt-0"><a href="/index.html"
+              class="text-2xl bg-green-400 py-1 px-4 rounded-lg text-white hover:bg-green-500 transition-colors sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">Home</a>
+          </li>
+          <li class="mb-5"><a href="#"
+              class="text-2xl bg-green-400 py-1 px-4 rounded-lg text-white hover:bg-green-500 transition-colors sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">Shop</a>
+          </li>
+          <li class="mb-5"><a href="#"
+              class="text-2xl bg-green-400 py-1 px-4 rounded-lg text-white hover:bg-green-500 transition-colors sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">About</a>
+          </li>
+          <li class="mb-5"><a href="#"
+              class="text-2xl bg-green-400 py-1 px-4 rounded-lg text-white hover:bg-green-500 transition-colors sm:bg-transparent sm:text-black sm:font-semibold sm:hover:bg-transparent sm:hover:text-amber-500">contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right sections -->
+      <div class="flex items-center justify-center gap-x-5">
+        <a href=""><img src="/src/images/icon/navicons1.png" alt="icons"></a>
+        <a href=""><img src="/src/images/icon/navicons2.png" alt="icons"></a>
+        <a href=""><img src="/src/images/icon/navicons3.png" alt="icons"></a>
+        <a href=""><img src="/src/images/icon/navicons4.png" alt="icons"></a>
+      </div>
+
+      <!-- mobile navigation bars -->
+      <div class="sm:hidden">
+        <div id="mobileBars" class="sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+          </svg>
+        </div>
+        <div id="closeBars" class="hidden sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+  <!-- Shop Hero sections -->
+  <section>
+    <div class="containers mt-17 sm:mt-23 overflow-hidden">
+
+      <img src="/src/images/shopHeroimg.png" alt="img" class="w-full object-cover h-[200px] lg:rounded-sm">
+
+      <div class="absolute top-20 left-1/2 -translate-x-1/2 text-center z-0 sm:top-25">
+        <img src="/src/images/shopBrandLogoimg.png" alt="" class="mx-auto">
+        <h2 class="text-center sm:text-2xl">Shop</h2>
+        <h2 class="text-center">Home > Shop</h2>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Shop Filter sections -->
+  <section>
+    <div class="containers flex items-center flex-wrap justify-center sm:justify-around bg-dripRed100 py-6 px-2">
+
+      <!-- left Filter sections -->
+      <div class="flex items-center gap-15">
+        <div class="flex items-center gap-3">
+          <a href="#"><img src="/src/images/icon/filtersIcons.png" alt="icons" class="w-10 sm:w-auto"></a>
+          <h2>Filter</h2>
+        </div>
+        <div class="flex items-center gap-7">
+          <a href="#"><img src="/src/images/icon/manuIcons.png" alt="icons"></a>
+          <a href="#"><img src="/src/images/icon/sideicons.png" alt="icons"></a>
+          <a href="#"><img src="/src/images/icon/linsicons.png" alt="icons"></a>
+          <h2>Showing 1–16 of 32 results</h2>
+        </div>
+      </div>
+
+      <!-- right Filter sections -->
+      <div class="flex items-center gap-15 justify-center">
+        <div class="flex items-center gap-4 sm:gap-8">
+          <h2>Show</h2>
+          <span class="bg-white py-2 px-3 text-gray-700 rounded-lg">16</span>
+        </div>
+        <div class="flex items-center gap-4 sm:gap-8">
+          <h2>Short by</h2>
+          <span class="bg-white py-2 px-3 text-gray-700 rounded-lg">Default</span>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Shop sections -->
+  <section class="py-10">
+    <div class="max-w-[1400px] mx-auto px-5">
+
+      <!-- Items Prodact -->
+      <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 lg:grid-cols-4 justify-items-center items-stretch">
+
+        <!-- itms 1 -->
+        <div class="sm:w-[300px] rounded-lg">
+          <img src="/src/images/prodact1.png" alt="" class="w-[280px] mx-auto object-contain">
+          <div class="text-center">
+            <p>Trenton modular sofa_3</p>
+            <h2>Rs.25,000.00</h2>
+          </div>
+        </div>
+        <!-- itms 2 -->
+        <div class="sm:w-[300px] rounded-lg">
+          <img src="/src/images/toppicksimg2.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Granite dining table with dining chair</p>
+            <h2>Rs.27,457.00</h2>
+          </div>
+        </div>
+        <!-- itms 3 -->
+        <div class="sm:w-[300px] rounded-lg">
+          <img src="/src/images/toppicksimg3.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Outdoor bar table and stool</p>
+            <h2>Rs.31,070.00</h2>
+          </div>
+        </div>
+        <!-- items 4 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg4.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Plain console with teak mirror</p>
+            <h2>Rs.21,002.01</h2>
+          </div>
+        </div>
+        <!-- items 5 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg5.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Grain coffee table</p>
+            <h2>Rs. 15,000.00</h2>
+          </div>
+        </div>
+        <!-- items 6 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg6.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Kent coffee table</p>
+            <h2>Rs. 225,000.00</h2>
+          </div>
+        </div>
+        <!-- items 7 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg7.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Round coffee table_color 2</p>
+            <h2>Rs. 251,000.00</h2>
+          </div>
+        </div>
+        <!-- items 8 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg8.png " alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Reclaimed teak coffee table</p>
+            <h2>Rs. 25,200.00</h2>
+          </div>
+        </div>
+        <!-- items 9 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg9.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Plain console_</p>
+            <h2>Rs. 258,200.00</h2>
+          </div>
+        </div>
+        <!-- items 10 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg10.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Reclaimed teak Sideboard</p>
+            <h2>Rs. 20,000.00</h2>
+          </div>
+        </div>
+        <!-- items 11 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg11.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Reclaimed teak coffee table</p>
+            <h2>Rs. 25,200.00</h2>
+          </div>
+        </div>
+        <!-- items 12 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg12.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Plain console_</p>
+            <h2>Rs. 258,200.00</h2>
+          </div>
+        </div>
+        <!-- items 13 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg13.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Reclaimed teak Sideboard</p>
+            <h2>Rs. 20,000.00</h2>
+          </div>
+        </div>
+        <!-- items 14 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg14.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>SJP_0825</p>
+            <h2>Rs. 200,000.00</h2>
+          </div>
+        </div>
+        <!-- items 15 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg15.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Bella chair and table</p>
+            <h2>Rs. 100,000.00</h2>
+          </div>
+        </div>
+        <!-- items 16 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg19.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Reclaimed teak Sideboard</p>
+            <h2>Rs. 20,000.00</h2>
+          </div>
+        </div>
+        <!-- items 17 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg10.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Granite square side table</p>
+            <h2>Rs. 258,800.00</h2>
+          </div>
+        </div>
+        <!-- items 18 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg20.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Asgaard sofa</p>
+            <h2>Rs. 250,000.00</h2>
+          </div>
+        </div>
+        <!-- items 19 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg21.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Maya sofa three seater</p>
+            <h2>Rs. 115,000.00</h2>
+          </div>
+        </div>
+        <!-- items 20 -->
+        <div class="sm:w-[300px] rounded-lg ">
+          <img src="/src/images/toppicksimg22.png" alt="" class="w-[280px] mx-auto">
+          <div class="text-center">
+            <p>Outdoor sofa set</p>
+            <h2>Rs. 244,000.00</h2>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- btn View More -->
+      <div class="flex items-center justify-center gap-5 mt-5 sm:gap-10 lg:mt-5">
+        <span class="bg-primary p-3 rounded-sm">1</span>
+        <span class="bg-yellow-50 p-3 rounded-sm">2</span>
+        <span class="bg-yellow-50 p-3 rounded-sm">3</span>
+
+        <a href="#" class="bg-yellow-50 p-3 rounded-sm text-2xl">Next</a>
+
+      </div>
+  </section>
+
+
+  <!-- tuch and condations -->
+  <section>
+    <div class="containers bg-pink-50 flex gap-3 flex-wrap items-center sm:justify-around sm:gap-4 py-8 px-2">
+
+      <div class="text-center sm:text-left flex gap-2">
+        <!-- left sections -->
+        <div class="">
+          <h2>Free Delivery</h2>
+          <p>For all oders over $50, consectetur <br> adipim scing elit.</p>
+        </div>
+        <!-- Madals sections -->
+        <div>
+          <h2>90 Days Return</h2>
+          <p>If goods have problems, consectetur <br> adipim scing elit.</p>
+        </div>
+        <!-- Right sections -->
+        <div>
+          <h2>Secure Payment</h2>
+          <p>100% secure payment, consectetur adipim scing elit.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- Footer sections -->
+  <footer class="py-5">
+    <div class="max-w-[1440px] mx-auto px-2 shadow-2xl mt-4 sm:shadow-none sm:mt-0">
+
+      <div class="grid items-center justify-center gap-5 sm:grid-cols-3 lg:grid-cols-3">
+
+        <!-- left  -->
+        <div>
+          <p>400 University Drive Suite 200 Coral <br> Gables,
+            <br> FL 33134 USA
+          </p>
+        </div>
+
+        <!-- itmes 2 -->
+        <div class="flex flex-col sm:items-center sm:justify-center">
+          <ul>
+            <li class="mb-4"><a href="#">Home</a></li>
+            <li class="mb-4"><a href="#">About</a></li>
+            <li class="mb-4"><a href="#">Links</a></li>
+            <li class="mb-4"><a href="#">Shop</a></li>
+            <li class="mb-4"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- items 3 -->
+        <div class="flex flex-col sm:items-center sm:justify-center">
+          <ul>
+            <li class="mb-4"><a href="#">Help</a></li>
+            <li class="mb-4"><a href="#">Payment Options</a></li>
+            <li class="mb-4"><a href="#">Returns</a></li>
+            <li class="mb-4"><a href="#">Privacy Policies</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- items 4 -->
+      <div class="flex justify-center items-center flex-col">
+        <p class="mb-4 text-2xl text-left">Newsletter</p>
+        <div class="flex flex-col gap-2 sm:flex-row">
+          <input type="email" placeholder="Enter Your Email Address" class="border-b-2 border-gray-800 outline-none ">
+          <button class="cursor-pointer sm:border-b-2 sm:border-gray-900">SUBSCRIBE</button>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Javascript Link -->
+  <script src="/src/js/shop.js"></script>
+</body>
+
+</html>
