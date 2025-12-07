@@ -27,10 +27,16 @@
   body {
     overflow-x: hidden;
   }
+  .boderBottom {
+    border-bottom: 1px solid #353535;
+  }
 }
 
 @layer components {
   .paddingXl {
     @apply py-8 px-2 sm:py-10 sm:px-4 lg:py-15 lg:px-4;
+  }
+  .containers {
+    @apply max-w-[1440px] mx-auto;
   }
 }
