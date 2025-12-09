@@ -30,6 +30,16 @@
   .boderBottom {
     border-bottom: 1px solid #353535;
   }
+  .boder1px {
+    border: 1px solid #353535;
+    font-size: 17px;
+  }
+  .boderInputBox {
+    border: 1px solid #dddd;
+  }
+  .bassisFlex {
+    flex-basis: 50%;
+  }
 }
 
 @layer components {
